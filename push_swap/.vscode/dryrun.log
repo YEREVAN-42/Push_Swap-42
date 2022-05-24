@@ -1,0 +1,36 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/khovakim/Desktop/push_swap'
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_check_arguments.c -o src/ft_check_arguments.o
+ 
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_frees.c -o src/ft_frees.o
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_push_op.c -o src/ft_push_op.o
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_radix_sort.c -o src/ft_radix_sort.o
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_reverse_rotate_op.c -o src/ft_reverse_rotate_op.o
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_rotate_op.c -o src/ft_rotate_op.o
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_sorted.c -o src/ft_sorted.o
+ 
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_split.c -o src/ft_split.o
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_stack_utils.c -o src/ft_stack_utils.o
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_swap_op.c -o src/ft_swap_op.o
+gcc -Wall -Werror -Wextra -I ./inc -c src/ft_utils_for_sorted.c -o src/ft_utils_for_sorted.o
+ 
+gcc -Wall -Werror -Wextra -I ./inc -c src/main.c -o src/main.o
+gcc -Wall -Werror -Wextra -I ./inc -c src/my_libft_func.c -o src/my_libft_func.o
+ 
+gcc -Wall -Werror -Wextra -I ./inc -o push_swap ./src/ft_check_arguments.o ./src/ft_frees.o ./src/ft_push_op.o ./src/ft_radix_sort.o ./src/ft_reverse_rotate_op.o ./src/ft_rotate_op.o ./src/ft_sorted.o ./src/ft_split.o ./src/ft_stack_utils.o ./src/ft_swap_op.o ./src/ft_utils_for_sorted.o ./src/main.o ./src/my_libft_func.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/checker.c -o bonus_42/checker.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/ft_check_arguments_B.c -o bonus_42/ft_check_arguments_B.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/ft_frees_B.c -o bonus_42/ft_frees_B.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/ft_push_op_B.c -o bonus_42/ft_push_op_B.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/ft_reverse_rotate_op_B.c -o bonus_42/ft_reverse_rotate_op_B.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/ft_rotate_op_B.c -o bonus_42/ft_rotate_op_B.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/ft_split_B.c -o bonus_42/ft_split_B.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/ft_stack_utils_B.c -o bonus_42/ft_stack_utils_B.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/ft_swap_op_B.c -o bonus_42/ft_swap_op_B.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/ft_utils_for_sorted_B.c -o bonus_42/ft_utils_for_sorted_B.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/get_next_line.c -o bonus_42/get_next_line.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/get_next_line_utils.c -o bonus_42/get_next_line_utils.o
+gcc -Wall -Werror -Wextra -I ./inc -c bonus_42/my_libft_func_B.c -o bonus_42/my_libft_func_B.o
+gcc -Wall -Werror -Wextra -I ./inc -o checker ./bonus_42/checker.o ./bonus_42/ft_check_arguments_B.o ./bonus_42/ft_frees_B.o ./bonus_42/ft_push_op_B.o ./bonus_42/ft_reverse_rotate_op_B.o ./bonus_42/ft_rotate_op_B.o ./bonus_42/ft_split_B.o ./bonus_42/ft_stack_utils_B.o ./bonus_42/ft_swap_op_B.o ./bonus_42/ft_utils_for_sorted_B.o ./bonus_42/get_next_line.o ./bonus_42/get_next_line_utils.o ./bonus_42/my_libft_func_B.o
+make: Leaving directory `/Users/khovakim/Desktop/push_swap'
+ 
